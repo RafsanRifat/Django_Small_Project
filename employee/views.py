@@ -1,10 +1,11 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.shortcuts import render
 
 # Create your views here.
 
-def employee(response):
-    return HttpResponse('This is employee home page')
+def employee(request):
+    return render(request, 'employee/profile.html')
 
-def salary(response):
+def salary(request):
     return HttpResponse('This is the salary page')
