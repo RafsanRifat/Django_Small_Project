@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def employee(response):
     return HttpResponse('This is employee home page')
+
+def salary(response):
+    return HttpResponse('This is the salary page')
