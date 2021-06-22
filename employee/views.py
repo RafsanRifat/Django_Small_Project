@@ -3,8 +3,8 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def employee(request):
+def profile(request):
     return render(request, 'employee/profile.html')
 
-def salary(request):
-    return HttpResponse('This is the salary page')
+def employee(request):
+    return render(request, 'employee.html')
