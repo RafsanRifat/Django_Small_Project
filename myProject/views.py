@@ -4,7 +4,12 @@ from django.shortcuts import render
 
 
 def home(request):
-    return render(request, 'index.html')
+    text = {
+        'name': 'Rafsan',
+        'phone': +88011221122,
+
+    }
+    return render(request, 'index.html', text)
 
 def about(request):
     return render(request, 'about.html')
