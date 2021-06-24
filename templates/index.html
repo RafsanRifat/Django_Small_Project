@@ -1,21 +1,2 @@
 {% extends 'layouts.html' %}
 
-{% block title %}
-    <title>Home</title>
-{% endblock %}
-
-{% block content %}
-    {% include 'slider.html' %}
-    <div class="mt-5">
-        <h1 class="text-center">Home page</h1>
-    <p>Name : {{ name }} </p>
-    <p>Number : {{ phone }} </p>
-    <h3>Friends:</h3>
-    <ul class="friends">
-        {% for friend in friends  %}
-            <li class="friends_name">{{ friend }}</li>
-        {% endfor %}
-
-    </ul>
-    </div>
-{% endblock %}
