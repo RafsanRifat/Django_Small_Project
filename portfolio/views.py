@@ -3,5 +3,5 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def protfolio(request):
+def portfolio(request):
     return render(request, 'index.html')

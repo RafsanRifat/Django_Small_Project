@@ -4,14 +4,14 @@ from django.http import HttpResponseRedirect
 
 
 
-def home(request):
-    return render(request, 'index.html')
+# def home(request):
+#     return render(request, 'index.html')
 
 # def about(request):
 #     return render(request, 'index.html')
 
-def about(request):
-    return HttpResponseRedirect(request.about)
+# def about(request):
+#     return HttpResponseRedirect(request.about)
 
 
 
