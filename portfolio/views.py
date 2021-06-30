@@ -10,5 +10,3 @@ def portfolio(request):
         'hero':herodata
     }
     return render(request, 'index.html',context)
-
-#rafsan
